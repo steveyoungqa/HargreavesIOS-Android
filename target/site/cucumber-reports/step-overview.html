@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cucumber-JVM Html Reports - Step Overview</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript" src="jquery.min.js"></script>
+<script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="bootstrap.min.js"></script>
+
+<script type="text/javascript" src="highcharts.js"></script>
+<script type="text/javascript" src="highcharts-3d.js"></script>
+
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="reporting.css" type="text/css"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    $("#tablesorter").tablesorter();
+});
+</script>
+
+
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber-jvm Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="feature-overview.html">Features</a></li>
+        <li role="presentation" ><a href="tag-overview.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="step-overview.html">Steps</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container-fluid" id="summary">
+  <div class="row">
+    <div class="col-md-6">
+      <table class="table table-bordered">
+        <thead>
+          <tr>
+            <th>Project</th>
+                          <th>Number</th>
+                        <th>Date</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="info">
+            <td>AppiumZero</td>
+                          <td>42</td>
+                        <td>25 Apr 2018, 13:01</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid" id="title">
+  <h2>Step Statistics</h2>
+      <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+  </div>
+
+<div class="container-fluid" id="report-details">
+  <table id="tablesorter" class="stats-table">
+
+    <thead>
+      <tr class="header">
+        <th id="stats-header-feature">Implementation</th>
+        <th id="stats-header-occurrences">Occurrences</th>
+        <th id="stats-header-duration">Duration</th>
+        <th id="stats-header-average">Average</th>
+        <th id="stats-header-status">Ratio</th>
+      </tr>
+    </thead>
+
+    <tbody>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iLaunchTheAppOnTheDevice()</td>
+          <td>3</td>
+          <td class="duration-format">2m 27s 356ms</td>
+          <td class="duration-format">49s 118ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSScrollThePageTimes(String,int)</td>
+          <td>12</td>
+          <td class="duration-format">1m 22s 888ms</td>
+          <td class="duration-format">06s 907ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSClickOnTheTextLink(String)</td>
+          <td>12</td>
+          <td class="duration-format">29s 767ms</td>
+          <td class="duration-format">02s 480ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSTakeMeBackToTheApp()</td>
+          <td>6</td>
+          <td class="duration-format">20s 266ms</td>
+          <td class="duration-format">03s 377ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSEnterTheMasterPasswordCharactersOf(String,String,String)</td>
+          <td>3</td>
+          <td class="duration-format">19s 134ms</td>
+          <td class="duration-format">06s 378ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iClickOnTheIOSMarketIcon()</td>
+          <td>9</td>
+          <td class="duration-format">16s 303ms</td>
+          <td class="duration-format">01s 811ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iPauseForSecondsToDebug(int)</td>
+          <td>3</td>
+          <td class="duration-format">15s 013ms</td>
+          <td class="duration-format">05s 004ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSEnterATopUpAmountOf(String)</td>
+          <td>6</td>
+          <td class="duration-format">14s 834ms</td>
+          <td class="duration-format">02s 472ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iChooseStubsAndRemoteFromTheDebugMenu()</td>
+          <td>3</td>
+          <td class="duration-format">11s 354ms</td>
+          <td class="duration-format">03s 784ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSPullDownAndRefreshThePageSwitch()</td>
+          <td>3</td>
+          <td class="duration-format">10s 898ms</td>
+          <td class="duration-format">03s 632ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.theIOSHLFingerprintInfoScreenIsDisplayed()</td>
+          <td>3</td>
+          <td class="duration-format">10s 589ms</td>
+          <td class="duration-format">03s 529ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSClickOnAction()</td>
+          <td>6</td>
+          <td class="duration-format">10s 451ms</td>
+          <td class="duration-format">01s 741ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSEnterTheSIPPMarket()</td>
+          <td>3</td>
+          <td class="duration-format">09s 839ms</td>
+          <td class="duration-format">03s 279ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSAcceptTheGotItDialoguePopUp()</td>
+          <td>3</td>
+          <td class="duration-format">07s 825ms</td>
+          <td class="duration-format">02s 608ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iSelectTheIOSAccountIcon()</td>
+          <td>3</td>
+          <td class="duration-format">07s 664ms</td>
+          <td class="duration-format">02s 554ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iEnterIOSAUsernameOf(String)</td>
+          <td>3</td>
+          <td class="duration-format">06s 636ms</td>
+          <td class="duration-format">02s 212ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSClickTopUpContinue()</td>
+          <td>6</td>
+          <td class="duration-format">06s 463ms</td>
+          <td class="duration-format">01s 077ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSEnterATradingPasswordOf(String)</td>
+          <td>3</td>
+          <td class="duration-format">06s 355ms</td>
+          <td class="duration-format">02s 118ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSSelectAccept()</td>
+          <td>6</td>
+          <td class="duration-format">06s 136ms</td>
+          <td class="duration-format">01s 022ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iEnterIOSADateOfBirthOf(String)</td>
+          <td>3</td>
+          <td class="duration-format">05s 858ms</td>
+          <td class="duration-format">01s 952ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.thenIIOSSwipeToThe(String)</td>
+          <td>12</td>
+          <td class="duration-format">05s 639ms</td>
+          <td class="duration-format">469ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSSwitchViewToDetails()</td>
+          <td>3</td>
+          <td class="duration-format">04s 887ms</td>
+          <td class="duration-format">01s 629ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSSwitchViewToPrices()</td>
+          <td>3</td>
+          <td class="duration-format">04s 885ms</td>
+          <td class="duration-format">01s 628ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSGoBackToTheMarketsPage()</td>
+          <td>3</td>
+          <td class="duration-format">04s 677ms</td>
+          <td class="duration-format">01s 559ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iShouldSeeTheIOSMarketsHomepage()</td>
+          <td>3</td>
+          <td class="duration-format">04s 470ms</td>
+          <td class="duration-format">01s 490ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSChooseAmmendTheTopUp()</td>
+          <td>3</td>
+          <td class="duration-format">03s 867ms</td>
+          <td class="duration-format">01s 289ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSClickOnConfirmWithdrawal()</td>
+          <td>3</td>
+          <td class="duration-format">03s 739ms</td>
+          <td class="duration-format">01s 246ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSChooseToExit()</td>
+          <td>3</td>
+          <td class="duration-format">03s 686ms</td>
+          <td class="duration-format">01s 228ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iEnterTheIOSDebugMenu()</td>
+          <td>3</td>
+          <td class="duration-format">03s 595ms</td>
+          <td class="duration-format">01s 198ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iClickOnTheIOSContinueLogInButton()</td>
+          <td>3</td>
+          <td class="duration-format">03s 440ms</td>
+          <td class="duration-format">01s 146ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iClickOnTheIOSMasterPasswordLogIn()</td>
+          <td>3</td>
+          <td class="duration-format">03s 439ms</td>
+          <td class="duration-format">01s 146ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSReturnToAccount()</td>
+          <td>3</td>
+          <td class="duration-format">03s 362ms</td>
+          <td class="duration-format">01s 120ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSChooseToTopUp()</td>
+          <td>3</td>
+          <td class="duration-format">03s 241ms</td>
+          <td class="duration-format">01s 080ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSClickOnWithdrawMoney()</td>
+          <td>3</td>
+          <td class="duration-format">03s 088ms</td>
+          <td class="duration-format">01s 029ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iClickOnTheIOSLogInButton()</td>
+          <td>3</td>
+          <td class="duration-format">02s 768ms</td>
+          <td class="duration-format">922ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iViewTheIOSTermsConditions()</td>
+          <td>3</td>
+          <td class="duration-format">02s 636ms</td>
+          <td class="duration-format">878ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.thenIClickTheIOSGetStartedButton()</td>
+          <td>3</td>
+          <td class="duration-format">02s 404ms</td>
+          <td class="duration-format">801ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSShouldSeeTheWithdrawalInstructionConfirmationScreen()</td>
+          <td>3</td>
+          <td class="duration-format">01s 893ms</td>
+          <td class="duration-format">631ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iIOSCaptureThePortfolioValue()</td>
+          <td>3</td>
+          <td class="duration-format">802ms</td>
+          <td class="duration-format">267ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.theIOSHLWelcomeScreenIsDisplayed()</td>
+          <td>3</td>
+          <td class="duration-format">694ms</td>
+          <td class="duration-format">231ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iAmUsingAppiumForDeviceAndIOSVersion(String,String)</td>
+          <td>3</td>
+          <td class="duration-format">360ms</td>
+          <td class="duration-format">120ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Hooks.after(Scenario)</td>
+          <td>3</td>
+          <td class="duration-format">162ms</td>
+          <td class="duration-format">054ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">Hooks.before()</td>
+          <td>3</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.iAmUsingTheAppDirectoryOfAndApp(String,String)</td>
+          <td>3</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.theIOSQuickActionsInfoScreenIsDisplayed()</td>
+          <td>3</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.theIOSNewShareDealingOptionsInfoScreenIsDisplayed()</td>
+          <td>3</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+              <tr>
+                    
+          <td class="tagname">iosStepdefs.theIOSTopUpFromYourMobileInfoScreenIsDisplayed()</td>
+          <td>3</td>
+          <td class="duration-format">000ms</td>
+          <td class="duration-format">000ms</td>
+          <td class="passed">100.0%</td>
+        </tr>
+          </tbody>
+
+    <tfoot>
+      <tr>
+        <td>47</td>
+        <td>189</td>
+        <td class="duration-format">8m 33s 382ms</td>
+        <td class="duration-format">02s 716ms</td>
+        <td>Totals</td>
+      </tr>
+    </tfoot>
+  </table>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+      <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+      <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Cucumber-JVM Reports</a>
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

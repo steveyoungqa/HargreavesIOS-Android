@@ -1,0 +1,2884 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 223480,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 87,
+        "name": "Hargreaves Lansdown IOS User Journey",
+        "description": "",
+        "id": "hargreaves-lansdown-ios;hargreaves-lansdown-ios-user-journey;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 46059458,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 360037882,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am using Appium for device \"iPhone 8\" and IOS version \"11.3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iPhone 8",
+                  "offset": 30
+                },
+                {
+                  "val": "11.3",
+                  "offset": 57
+                }
+              ],
+              "location": "iosStepdefs.iAmUsingAppiumForDeviceAndIOSVersion(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 133515,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am using IOS the app directory of \"/Users/steveyoung/Documents/Appium/\" and app \"Hargreaves Lansdown.app\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/Users/steveyoung/Documents/Appium/",
+                  "offset": 37
+                },
+                {
+                  "val": "Hargreaves Lansdown.app",
+                  "offset": 83
+                }
+              ],
+              "location": "iosStepdefs.iAmUsingTheAppDirectoryOfAndApp(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 38346538342,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I launch the App on the IOS Device",
+            "match": {
+              "location": "iosStepdefs.iLaunchTheAppOnTheDevice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 235284989,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the IOS HL Welcome screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSHLWelcomeScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3615339762,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I IOS Take me back to the App",
+            "match": {
+              "location": "iosStepdefs.iIOSTakeMeBackToTheApp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 459081886,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3786089860,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the IOS HL fingerprint or Face ID info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSHLFingerprintInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 452796841,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30748,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the IOS Quick actions info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSQuickActionsInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 478064126,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 26672,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the IOS Top up from your mobile info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSTopUpFromYourMobileInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 479542857,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25882,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the IOS New share dealing options info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSNewShareDealingOptionsInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 822353735,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "then I click the IOS Get Started button",
+            "match": {
+              "location": "iosStepdefs.thenIClickTheIOSGetStartedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 856259953,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I view the IOS Terms \u0026 Conditions",
+            "match": {
+              "location": "iosStepdefs.iViewTheIOSTermsConditions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5775515347,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 849981513,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I IOS Select Accept",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectAccept()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1483325810,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the IOS Markets homepage",
+            "match": {
+              "location": "iosStepdefs.iShouldSeeTheIOSMarketsHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1185873682,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter the IOS Debug menu",
+            "match": {
+              "location": "iosStepdefs.iEnterTheIOSDebugMenu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3887034850,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I choose Stubs and Remote from the Debug menu",
+            "match": {
+              "location": "iosStepdefs.iChooseStubsAndRemoteFromTheDebugMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1012663359,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3296289904,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I IOS Take me back to the App",
+            "match": {
+              "location": "iosStepdefs.iIOSTakeMeBackToTheApp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3579593646,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I IOS pull down and refresh the page",
+            "match": {
+              "location": "iosStepdefs.iIOSPullDownAndRefreshThePageSwitch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2818881272,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2174639580,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I IOS click on the \"Xetra DAX\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xetra DAX",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1650181073,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I IOS go back to the Markets page",
+            "match": {
+              "location": "iosStepdefs.iIOSGoBackToTheMarketsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2483344109,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on the IOS Account Icon",
+            "match": {
+              "location": "iosStepdefs.iSelectTheIOSAccountIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 877191068,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on the IOS Log in button",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSLogInButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2145247233,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter IOS a Username of \"clnt1300107\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "clnt1300107",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iEnterIOSAUsernameOf(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1903618104,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I enter IOS a Date of Birth of \"010351\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "010351",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iEnterIOSADateOfBirthOf(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1079156435,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click on the IOS Continue Log in button",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSContinueLogInButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1154580809,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I IOS Select Accept",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectAccept()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6155711519,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I IOS enter the Master Password characters of \"r\" \"d\" \"g\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "r",
+                  "offset": 47
+                },
+                {
+                  "val": "d",
+                  "offset": 51
+                },
+                {
+                  "val": "g",
+                  "offset": 55
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterTheMasterPasswordCharactersOf(String,String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8,
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1187613978,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on the IOS Master Password Log In",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMasterPasswordLogIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3370528265,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I IOS Enter the SIPP Market",
+            "match": {
+              "location": "iosStepdefs.iIOSEnterTheSIPPMarket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2398320374,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I IOS accept the Got it dialogue pop-up",
+            "match": {
+              "location": "iosStepdefs.iIOSAcceptTheGotItDialoguePopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1585490665,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I IOS switch view to Prices",
+            "match": {
+              "location": "iosStepdefs.iIOSSwitchViewToPrices()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1634671227,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I IOS switch view to Details",
+            "match": {
+              "location": "iosStepdefs.iIOSSwitchViewToDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1575032800,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I IOS click on Action",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnAction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1038614787,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I IOS choose to Top up",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseToTopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2766175377,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I IOS enter a Top up amount of \"25000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25000",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATopUpAmountOf(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 984748854,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I IOS click Top up Continue",
+            "match": {
+              "location": "iosStepdefs.iIOSClickTopUpContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1306874747,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I IOS choose Amend the Top Up",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseAmmendTheTopUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1214802664,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I IOS choose to Exit",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseToExit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1762224624,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I IOS click on Action",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnAction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 983982390,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I IOS click on Withdraw Money",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnWithdrawMoney()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1915094782,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I IOS enter a Top up amount of \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATopUpAmountOf(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1080690707,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I IOS click Top up Continue",
+            "match": {
+              "location": "iosStepdefs.iIOSClickTopUpContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2137776922,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I IOS enter a trading password of \"trading123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trading123",
+                  "offset": 35
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATradingPasswordOf(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1121878611,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I IOS click on Confirm Withdrawal",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnConfirmWithdrawal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 606596428,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I IOS should see the Withdrawal Instruction confirmation screen",
+            "match": {
+              "location": "iosStepdefs.iIOSShouldSeeTheWithdrawalInstructionConfirmationScreen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5004283645,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I Pause for 5 seconds to debug",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 12
+                }
+              ],
+              "location": "iosStepdefs.iPauseForSecondsToDebug(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 261640055,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I IOS take a screenshot",
+            "match": {
+              "location": "iosStepdefs.iIOSCaptureThePortfolioValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1101081769,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I IOS Return to account",
+            "match": {
+              "location": "iosStepdefs.iIOSReturnToAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1674953880,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2544293211,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I IOS click on the \"FTSE 100\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FTSE 100",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7310548909,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2379816161,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I IOS click on the \"FALLERS\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FALLERS",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7041724496,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I IOS scroll \"down\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "down",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 29
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2429448626,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I IOS click on the \"A-Z\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A-Z",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7301874465,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@appium"
+          },
+          {
+            "line": 1,
+            "name": "@iosDemo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 51834,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 88,
+        "name": "Hargreaves Lansdown IOS User Journey",
+        "description": "",
+        "id": "hargreaves-lansdown-ios;hargreaves-lansdown-ios-user-journey;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 49924849,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 391884,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am using Appium for device \"iPhone 7\" and IOS version \"11.3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iPhone 7",
+                  "offset": 30
+                },
+                {
+                  "val": "11.3",
+                  "offset": 57
+                }
+              ],
+              "location": "iosStepdefs.iAmUsingAppiumForDeviceAndIOSVersion(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81007,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am using IOS the app directory of \"/Users/steveyoung/Documents/Appium/\" and app \"Hargreaves Lansdown.app\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/Users/steveyoung/Documents/Appium/",
+                  "offset": 37
+                },
+                {
+                  "val": "Hargreaves Lansdown.app",
+                  "offset": 83
+                }
+              ],
+              "location": "iosStepdefs.iAmUsingTheAppDirectoryOfAndApp(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52960614487,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I launch the App on the IOS Device",
+            "match": {
+              "location": "iosStepdefs.iLaunchTheAppOnTheDevice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 206325911,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the IOS HL Welcome screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSHLWelcomeScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3547090082,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I IOS Take me back to the App",
+            "match": {
+              "location": "iosStepdefs.iIOSTakeMeBackToTheApp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 439065058,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3769174763,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the IOS HL fingerprint or Face ID info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSHLFingerprintInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 445939964,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 81318,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the IOS Quick actions info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSQuickActionsInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 457769269,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21589,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the IOS Top up from your mobile info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSTopUpFromYourMobileInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 551314989,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 43371,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the IOS New share dealing options info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSNewShareDealingOptionsInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 710051970,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "then I click the IOS Get Started button",
+            "match": {
+              "location": "iosStepdefs.thenIClickTheIOSGetStartedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 877282947,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I view the IOS Terms \u0026 Conditions",
+            "match": {
+              "location": "iosStepdefs.iViewTheIOSTermsConditions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5726311051,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 831730085,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I IOS Select Accept",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectAccept()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1485901759,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the IOS Markets homepage",
+            "match": {
+              "location": "iosStepdefs.iShouldSeeTheIOSMarketsHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1181504533,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter the IOS Debug menu",
+            "match": {
+              "location": "iosStepdefs.iEnterTheIOSDebugMenu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3698148495,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I choose Stubs and Remote from the Debug menu",
+            "match": {
+              "location": "iosStepdefs.iChooseStubsAndRemoteFromTheDebugMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1093058262,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3369409225,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I IOS Take me back to the App",
+            "match": {
+              "location": "iosStepdefs.iIOSTakeMeBackToTheApp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3646478639,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I IOS pull down and refresh the page",
+            "match": {
+              "location": "iosStepdefs.iIOSPullDownAndRefreshThePageSwitch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2472498971,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2263811491,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I IOS click on the \"Xetra DAX\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xetra DAX",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1425836930,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I IOS go back to the Markets page",
+            "match": {
+              "location": "iosStepdefs.iIOSGoBackToTheMarketsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2345648338,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on the IOS Account Icon",
+            "match": {
+              "location": "iosStepdefs.iSelectTheIOSAccountIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 884753999,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on the IOS Log in button",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSLogInButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2114450109,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter IOS a Username of \"clnt1300107\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "clnt1300107",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iEnterIOSAUsernameOf(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1930953744,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I enter IOS a Date of Birth of \"010351\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "010351",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iEnterIOSADateOfBirthOf(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1087772175,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click on the IOS Continue Log in button",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSContinueLogInButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1216629721,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I IOS Select Accept",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectAccept()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6065424429,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I IOS enter the Master Password characters of \"r\" \"d\" \"g\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "r",
+                  "offset": 47
+                },
+                {
+                  "val": "d",
+                  "offset": 51
+                },
+                {
+                  "val": "g",
+                  "offset": 55
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterTheMasterPasswordCharactersOf(String,String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8,
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1159125160,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on the IOS Master Password Log In",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMasterPasswordLogIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2997948355,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I IOS Enter the SIPP Market",
+            "match": {
+              "location": "iosStepdefs.iIOSEnterTheSIPPMarket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2563466926,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I IOS accept the Got it dialogue pop-up",
+            "match": {
+              "location": "iosStepdefs.iIOSAcceptTheGotItDialoguePopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1545592926,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I IOS switch view to Prices",
+            "match": {
+              "location": "iosStepdefs.iIOSSwitchViewToPrices()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1573289666,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I IOS switch view to Details",
+            "match": {
+              "location": "iosStepdefs.iIOSSwitchViewToDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1627875711,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I IOS click on Action",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnAction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 985606977,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I IOS choose to Top up",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseToTopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3001705820,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I IOS enter a Top up amount of \"25000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25000",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATopUpAmountOf(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1092019303,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I IOS click Top up Continue",
+            "match": {
+              "location": "iosStepdefs.iIOSClickTopUpContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1261202365,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I IOS choose Amend the Top Up",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseAmmendTheTopUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1196236072,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I IOS choose to Exit",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseToExit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1755442067,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I IOS click on Action",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnAction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 989433491,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I IOS click on Withdraw Money",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnWithdrawMoney()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1914333941,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I IOS enter a Top up amount of \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATopUpAmountOf(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1027297864,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I IOS click Top up Continue",
+            "match": {
+              "location": "iosStepdefs.iIOSClickTopUpContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2205714916,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I IOS enter a trading password of \"trading123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trading123",
+                  "offset": 35
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATradingPasswordOf(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1296564101,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I IOS click on Confirm Withdrawal",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnConfirmWithdrawal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 672374072,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I IOS should see the Withdrawal Instruction confirmation screen",
+            "match": {
+              "location": "iosStepdefs.iIOSShouldSeeTheWithdrawalInstructionConfirmationScreen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5003710531,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I Pause for 5 seconds to debug",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 12
+                }
+              ],
+              "location": "iosStepdefs.iPauseForSecondsToDebug(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 178234313,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I IOS take a screenshot",
+            "match": {
+              "location": "iosStepdefs.iIOSCaptureThePortfolioValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1071685563,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I IOS Return to account",
+            "match": {
+              "location": "iosStepdefs.iIOSReturnToAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1627689115,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2623969265,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I IOS click on the \"FTSE 100\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FTSE 100",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7211848145,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2536112555,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I IOS click on the \"FALLERS\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FALLERS",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7286226940,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I IOS scroll \"down\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "down",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 29
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2431623338,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I IOS click on the \"A-Z\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A-Z",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7182761522,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@appium"
+          },
+          {
+            "line": 1,
+            "name": "@iosDemo"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 58887,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.before()"
+            }
+          }
+        ],
+        "line": 89,
+        "name": "Hargreaves Lansdown IOS User Journey",
+        "description": "",
+        "id": "hargreaves-lansdown-ios;hargreaves-lansdown-ios-user-journey;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 66189429,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.after(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 128773,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am using Appium for device \"iPhone X\" and IOS version \"11.3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "iPhone X",
+                  "offset": 30
+                },
+                {
+                  "val": "11.3",
+                  "offset": 57
+                }
+              ],
+              "location": "iosStepdefs.iAmUsingAppiumForDeviceAndIOSVersion(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 73333,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am using IOS the app directory of \"/Users/steveyoung/Documents/Appium/\" and app \"Hargreaves Lansdown.app\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "/Users/steveyoung/Documents/Appium/",
+                  "offset": 37
+                },
+                {
+                  "val": "Hargreaves Lansdown.app",
+                  "offset": 83
+                }
+              ],
+              "location": "iosStepdefs.iAmUsingTheAppDirectoryOfAndApp(String,String)"
+            },
+            "matchedColumns": [
+              2,
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56049418375,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I launch the App on the IOS Device",
+            "match": {
+              "location": "iosStepdefs.iLaunchTheAppOnTheDevice()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 252494063,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the IOS HL Welcome screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSHLWelcomeScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3039366808,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I IOS Take me back to the App",
+            "match": {
+              "location": "iosStepdefs.iIOSTakeMeBackToTheApp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 455815985,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3034355815,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the IOS HL fingerprint or Face ID info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSHLFingerprintInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 450226231,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 28985,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "the IOS Quick actions info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSQuickActionsInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 493317788,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 27961,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the IOS Top up from your mobile info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSTopUpFromYourMobileInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 476909773,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "then I IOS swipe to the \"left\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "left",
+                  "offset": 25
+                }
+              ],
+              "location": "iosStepdefs.thenIIOSSwipeToThe(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 22786,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "the IOS New share dealing options info screen is displayed",
+            "match": {
+              "location": "iosStepdefs.theIOSNewShareDealingOptionsInfoScreenIsDisplayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 872340046,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "then I click the IOS Get Started button",
+            "match": {
+              "location": "iosStepdefs.thenIClickTheIOSGetStartedButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 902600722,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "I view the IOS Terms \u0026 Conditions",
+            "match": {
+              "location": "iosStepdefs.iViewTheIOSTermsConditions()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5851344815,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 806561680,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "I IOS Select Accept",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectAccept()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1501682698,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "I should see the IOS Markets homepage",
+            "match": {
+              "location": "iosStepdefs.iShouldSeeTheIOSMarketsHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1227902044,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "I enter the IOS Debug menu",
+            "match": {
+              "location": "iosStepdefs.iEnterTheIOSDebugMenu()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3769781535,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "I choose Stubs and Remote from the Debug menu",
+            "match": {
+              "location": "iosStepdefs.iChooseStubsAndRemoteFromTheDebugMenu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1043131908,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3398654575,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "I IOS Take me back to the App",
+            "match": {
+              "location": "iosStepdefs.iIOSTakeMeBackToTheApp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3672872103,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "I IOS pull down and refresh the page",
+            "match": {
+              "location": "iosStepdefs.iIOSPullDownAndRefreshThePageSwitch()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2779418499,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2635004987,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "I IOS click on the \"Xetra DAX\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Xetra DAX",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1601052405,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "I IOS go back to the Markets page",
+            "match": {
+              "location": "iosStepdefs.iIOSGoBackToTheMarketsPage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2835326309,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "I click on the IOS Account Icon",
+            "match": {
+              "location": "iosStepdefs.iSelectTheIOSAccountIcon()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1006417763,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "I click on the IOS Log in button",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSLogInButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2376862000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "I enter IOS a Username of \"clnt1300107\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "clnt1300107",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iEnterIOSAUsernameOf(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2023774471,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "I enter IOS a Date of Birth of \"010351\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "010351",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iEnterIOSADateOfBirthOf(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1273307012,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "I click on the IOS Continue Log in button",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSContinueLogInButton()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1277114096,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "I IOS Select Accept",
+            "match": {
+              "location": "iosStepdefs.iIOSSelectAccept()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6913068565,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "I IOS enter the Master Password characters of \"r\" \"d\" \"g\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "r",
+                  "offset": 47
+                },
+                {
+                  "val": "d",
+                  "offset": 51
+                },
+                {
+                  "val": "g",
+                  "offset": 55
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterTheMasterPasswordCharactersOf(String,String,String)"
+            },
+            "matchedColumns": [
+              7,
+              8,
+              9
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1093038265,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "I click on the IOS Master Password Log In",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMasterPasswordLogIn()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3470558764,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "I IOS Enter the SIPP Market",
+            "match": {
+              "location": "iosStepdefs.iIOSEnterTheSIPPMarket()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2863331286,
+              "status": "passed"
+            },
+            "line": 53,
+            "name": "I IOS accept the Got it dialogue pop-up",
+            "match": {
+              "location": "iosStepdefs.iIOSAcceptTheGotItDialoguePopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1754071771,
+              "status": "passed"
+            },
+            "line": 54,
+            "name": "I IOS switch view to Prices",
+            "match": {
+              "location": "iosStepdefs.iIOSSwitchViewToPrices()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1679681806,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "I IOS switch view to Details",
+            "match": {
+              "location": "iosStepdefs.iIOSSwitchViewToDetails()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1695239609,
+              "status": "passed"
+            },
+            "line": 56,
+            "name": "I IOS click on Action",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnAction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1217761882,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "I IOS choose to Top up",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseToTopUp()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3110668333,
+              "status": "passed"
+            },
+            "line": 58,
+            "name": "I IOS enter a Top up amount of \"25000\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25000",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATopUpAmountOf(String)"
+            },
+            "matchedColumns": [
+              10
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1173564724,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "I IOS click Top up Continue",
+            "match": {
+              "location": "iosStepdefs.iIOSClickTopUpContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1299197460,
+              "status": "passed"
+            },
+            "line": 60,
+            "name": "I IOS choose Amend the Top Up",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseAmmendTheTopUp()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1275097622,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "I IOS choose to Exit",
+            "match": {
+              "location": "iosStepdefs.iIOSChooseToExit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2035232556,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "I IOS click on Action",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnAction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1114933433,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "I IOS click on Withdraw Money",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnWithdrawMoney()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2126936469,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "I IOS enter a Top up amount of \"100\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "100",
+                  "offset": 32
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATopUpAmountOf(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1105162867,
+              "status": "passed"
+            },
+            "line": 66,
+            "name": "I IOS click Top up Continue",
+            "match": {
+              "location": "iosStepdefs.iIOSClickTopUpContinue()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2012390743,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "I IOS enter a trading password of \"trading123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "trading123",
+                  "offset": 35
+                }
+              ],
+              "location": "iosStepdefs.iIOSEnterATradingPasswordOf(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1320695108,
+              "status": "passed"
+            },
+            "line": 68,
+            "name": "I IOS click on Confirm Withdrawal",
+            "match": {
+              "location": "iosStepdefs.iIOSClickOnConfirmWithdrawal()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 614332768,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "I IOS should see the Withdrawal Instruction confirmation screen",
+            "match": {
+              "location": "iosStepdefs.iIOSShouldSeeTheWithdrawalInstructionConfirmationScreen()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5005121942,
+              "status": "passed"
+            },
+            "line": 70,
+            "name": "I Pause for 5 seconds to debug",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 12
+                }
+              ],
+              "location": "iosStepdefs.iPauseForSecondsToDebug(int)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 362177283,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "I IOS take a screenshot",
+            "match": {
+              "location": "iosStepdefs.iIOSCaptureThePortfolioValue()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1189806577,
+              "status": "passed"
+            },
+            "line": 72,
+            "name": "I IOS Return to account",
+            "match": {
+              "location": "iosStepdefs.iIOSReturnToAccount()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1781645396,
+              "status": "passed"
+            },
+            "line": 74,
+            "name": "I click on the IOS Market Icon",
+            "match": {
+              "location": "iosStepdefs.iClickOnTheIOSMarketIcon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2608471809,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "I IOS click on the \"FTSE 100\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FTSE 100",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7425934899,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2659936884,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "I IOS click on the \"FALLERS\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "FALLERS",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7418577792,
+              "status": "passed"
+            },
+            "line": 80,
+            "name": "I IOS scroll \"down\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "down",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 29
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2480481376,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "I IOS click on the \"A-Z\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A-Z",
+                  "offset": 20
+                }
+              ],
+              "location": "iosStepdefs.iIOSClickOnTheTextLink(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7355577594,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "I IOS scroll \"up\" the page 4 times",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up",
+                  "offset": 14
+                },
+                {
+                  "val": "4",
+                  "offset": 27
+                }
+              ],
+              "location": "iosStepdefs.iIOSScrollThePageTimes(String,int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@appium"
+          },
+          {
+            "line": 1,
+            "name": "@iosDemo"
+          }
+        ]
+      }
+    ],
+    "name": "Hargreaves Lansdown IOS",
+    "description": "",
+    "id": "hargreaves-lansdown-ios",
+    "keyword": "Feature",
+    "uri": "HargreavesIOSdemo.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@appium"
+      },
+      {
+        "line": 1,
+        "name": "@iosDemo"
+      }
+    ]
+  }
+]

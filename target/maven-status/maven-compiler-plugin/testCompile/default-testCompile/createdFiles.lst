@@ -1,0 +1,13 @@
+Appium/AppiumServer.class
+PageObjects/iosPageObjects.class
+Appium/RunTimeExec.class
+TestRunner/TestRunner.class
+Appium/RunTimeExec$StreamWrapper.class
+StepDefinitions/iosStepdefs.class
+Appium/SampleTest.class
+StepDefinitions/iosStepdefs$appiumStartStop.class
+StepDefinitions/AndroidStepDefs.class
+StepDefinitions/AndroidStepDefs$appiumServer.class
+Appium/DriverFactory.class
+StepDefinitions/Hooks.class
+PageObjects/androidPageObjects.class
